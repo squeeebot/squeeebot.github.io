@@ -1,60 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
+
     <meta charset="utf-8">
-    <link rel="shortcut icon" href="favicon.ico">
-    <title>Jodie Perry</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./css.css" media="screen">
-    <style type="text/css"></style>
-  </head>
-  <body>
-    <div class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-collapse collapse" id="navbar-main">
-          <ul class="nav navbar-nav">
-            <li>
-              <a href="./index.html">Jodie Perry</a>
-            </li>
-            <li>
-              <a href="./about.html">About</a>
-            </li>
-            <li>
-              <a href="./work.html">Work</a>
-            </li>
-            <li>
-              <a href="./education.html">Education</a>
-            </li>
-          </ul>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Jodie Perry</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li>
+                        <a class="page-scroll" href="#page-top">Home</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About Me</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#education">Education</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="page-header">
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">Jodie Perry</h1>
+                        <p class="intro-text">Computer Science Student about to embark on a Year in Industry with Cisco.</p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>About Me</h2>
+                    <p> I'm currently a student at the <span><a href="http://www.kent.ac.uk/">University of Kent </a></span> preparing to begin my year in industry with Cisco, while working on my own personal projects. I have strong interest in analytics, technology and web design. If you've liked what you've seen and you're interested in working with me, I am willing to take on projects and work so please <span><a class="smooth" href="#contact">send me a message</a></span> if you think we can make something amazing together.</p>
+                    <a href="#education" class="btn btn-circle page-scroll">
+                        <i class="fa fa-angle-double-down animated"></i>
+                    </a>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="content-section text-center">
+        <div class="education-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <h2>Education</h2>
+                        <p>I'm in my Second year at the University of Kent studying Computer Science with a Year in Industry during my first year I achieved 80% which is the equivalent of a first. Over the past two years I have covered Java, PHP, SQL, JavaScript, HTML5, Erlang, assembler, UML and jQuery.</p>
+                        <a href="#contact" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
         <div class="row">
-          <div class="col-lg-12">
-            <div class="page-header">
-              <h1 id="container">Jodie Perry</h1>
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contact Me</h2>
+                <p>Feel free to email me to talk projects, potential opportunities or to just say hello!</p>
+                <div class="col-lg-10 col-lg-offset-1">
+                    <label for="name" class="col-lg-2 control-label">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Name" name="name">
+                    <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+                    <input type="text" class="form-control" id="inputEmail" placeholder="Email" name="inputEmail">
+                    <label for="textArea" class="col-lg-2 control-label">Message</label>
+                    <textarea class="form-control" rows="3" id="textArea" placeholder="Message" name="textArea"></textarea>
+                    <br>
+                    <button type="submit" value="Submit" class="btn btn-primary">Submit</button>
+                </div>
             </div>
-            <div class="bs-component">
-              <div class="intro">
-                <table>
-                  <tr>
-                    <td>
-                      <h2>Welcome to my personal website</h2>
-                      <p>I'm a second year Computer Science student at the University of Kent. This website details my experience in the industry, at university and elsewhere. I am currently looking for industrial placements for my year in industry.</p>
-                      <p>Should you wish to contact me, please do so on the contact page.</p>
-                    </td>
-                    <td>
-                        <img class="portrait" src="portrait.jpg" alt="Portrait" >
-                    </td>
-                  </tr>
-                </table>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </body>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <ul class="list-inline banner-social-buttons">
+                <li>
+                    <a href="https://uk.linkedin.com/in/jodieperry" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
+                </li>
+            </ul>
+            <p><a href="mailto:jodie@jodieperry.me">jodie@jodieperry.me</a></p>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+
+</body>
+
 </html>
